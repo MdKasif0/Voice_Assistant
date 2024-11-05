@@ -1,6 +1,6 @@
 // stable_diffusion.js
 
-const apiKey = "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";
+const apiKey = ${{ secrets.API_KEY }};
 const modelUrl = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
 
 async function generateImage(prompt) {
